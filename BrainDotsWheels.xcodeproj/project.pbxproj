@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C534FD6F1D12B33D00808B63 /* Brain Dots - Colors */ = {
+		C534FD6F1D12B33D00808B63 /* BrainDotsWheels */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C534FD861D12B33F00808B63 /* Build configuration list for PBXNativeTarget "Brain Dots - Colors" */;
+			buildConfigurationList = C534FD861D12B33F00808B63 /* Build configuration list for PBXNativeTarget "BrainDotsWheels" */;
 			buildPhases = (
 				C534FD6C1D12B33D00808B63 /* Sources */,
 				C534FD6D1D12B33D00808B63 /* Frameworks */,
@@ -120,7 +120,7 @@
 			);
 			dependencies = (
 			);
-			name = "Brain Dots - Colors";
+			name = BrainDotsWheels;
 			productName = "Roll from top";
 			productReference = C534FD701D12B33D00808B63 /* Brain Dots - Colors.app */;
 			productType = "com.apple.product-type.application";
@@ -147,7 +147,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C534FD6B1D12B33D00808B63 /* Build configuration list for PBXProject "Brain Dots - Colors" */;
+			buildConfigurationList = C534FD6B1D12B33D00808B63 /* Build configuration list for PBXProject "BrainDotsWheels" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -160,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C534FD6F1D12B33D00808B63 /* Brain Dots - Colors */,
+				C534FD6F1D12B33D00808B63 /* BrainDotsWheels */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +320,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.braindotcolor.100;
-				PRODUCT_NAME = "Brain Dots - Colors";
+				PRODUCT_NAME = BrainDotsWheels;
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,7 +343,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.braindotcolor.100;
-				PRODUCT_NAME = "Brain Dots - Colors";
+				PRODUCT_NAME = BrainDotsWheels;
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C534FD6B1D12B33D00808B63 /* Build configuration list for PBXProject "Brain Dots - Colors" */ = {
+		C534FD6B1D12B33D00808B63 /* Build configuration list for PBXProject "BrainDotsWheels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C534FD841D12B33F00808B63 /* Debug */,
@@ -362,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C534FD861D12B33F00808B63 /* Build configuration list for PBXNativeTarget "Brain Dots - Colors" */ = {
+		C534FD861D12B33F00808B63 /* Build configuration list for PBXNativeTarget "BrainDotsWheels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C534FD871D12B33F00808B63 /* Debug */,
