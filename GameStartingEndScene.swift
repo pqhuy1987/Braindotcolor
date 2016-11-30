@@ -193,7 +193,7 @@ class GameStartingEndScene : SKScene{
         }
         else if share.contains(touch.location(in: self))
         {
-            self.viewController.socialShare( "Try this app \"Brain Dots - Colors\" ! \n@BrainDotsColors \n#BrainDotsColors", sharingImage: snapshotImage(), sharingURL: URL(string: "https://itunes.apple.com/us/app/brain-dots-colors/id1125722878"));
+//            self.viewController.socialShare( "Try this app \"Brain Dots Wheels\" ! \n@BrainDotsWheels \n#BrainDotsWheels", sharingImage: snapshotImage(), sharingURL: URL(string: "https://itunes.apple.com/us/app/brain-dots-colors/id1125722878"));
 
         }
         else if love.contains(touch.location(in: self))

@@ -62,7 +62,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate,GADIn
         gamesPlayed += 1;
         if( gamesPlayed % 2 == 0 )
         {
-            self.interstitial = GADInterstitial(adUnitID: "ca-app-pub-5790887354215582/1862418352")
+            self.interstitial = GADInterstitial(adUnitID: "ca-app-pub-5722562744549789/2259742550")
             self.interstitial.load(GADRequest());
         }
         else if( gamesPlayed % 3 == 0 )
