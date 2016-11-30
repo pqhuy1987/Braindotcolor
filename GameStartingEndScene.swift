@@ -85,7 +85,6 @@ class GameStartingEndScene : SKScene{
         love.size = CGSize(width:size.width/12,height:size.width/12)
         love.name = "share"
         love.isUserInteractionEnabled = false
-        love.isUserInteractionEnabled = false
         
         bestScore = SKLabelNode(fontNamed: "Chalkduster")
         bestScore.zPosition=2
