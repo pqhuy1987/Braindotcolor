@@ -319,7 +319,7 @@
 				INFOPLIST_FILE = "Roll from top/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sanjithkanagavel.braindots-colors1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.braindotcolor.100;
 				PRODUCT_NAME = "Brain Dots - Colors";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
@@ -342,7 +342,7 @@
 				INFOPLIST_FILE = "Roll from top/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sanjithkanagavel.braindots-colors1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.braindotcolor.100;
 				PRODUCT_NAME = "Brain Dots - Colors";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
