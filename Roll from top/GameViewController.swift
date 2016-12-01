@@ -167,7 +167,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate,GADIn
     
     func rateApp()
     {
-        //UIApplication.shared.openURL(URL(string : "itms-apps://itunes.apple.com/app/id1125722878")!)
+        UIApplication.shared.openURL(URL(string : "itms-apps://itunes.apple.com/app/id1181326962")!)
     }
     
 }

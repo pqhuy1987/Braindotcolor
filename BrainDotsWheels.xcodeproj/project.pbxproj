@@ -33,7 +33,7 @@
 		C522B2FF1D15217B00274B89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C522B3031D15220000274B89 /* scored.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = scored.wav; sourceTree = "<group>"; };
 		C522B3051D15250B00274B89 /* GameStartingEndScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameStartingEndScene.swift; path = ../GameStartingEndScene.swift; sourceTree = "<group>"; };
-		C534FD701D12B33D00808B63 /* Brain Dots - Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brain Dots - Colors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C534FD701D12B33D00808B63 /* Brain Dots - Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Brain Dots - Colors.app"; path = BrainDotsWheels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C534FD731D12B33E00808B63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C534FD771D12B33F00808B63 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		C534FD791D12B33F00808B63 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
