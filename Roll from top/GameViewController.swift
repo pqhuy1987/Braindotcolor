@@ -8,14 +8,12 @@
 
 import SpriteKit
 import GameKit
-import GoogleMobileAds
 
-class GameViewController: UIViewController, GKGameCenterControllerDelegate,GADInterstitialDelegate {
+class GameViewController: UIViewController, GKGameCenterControllerDelegate{
     
     var gcEnabled = Bool() // Stores if the user has Game Center enabled
     var gcDefaultLeaderBoard = String() // Stores the default leaderboardID
     var gamesPlayed = 0;
-    var interstitial = GADInterstitial()
     var adshowed = Bool()
     
     override func viewDidLoad() {
@@ -46,35 +44,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate,GADIn
     
     func gamePlayed() {
         
-        if(!adshowed)
-        {
-            if (self.interstitial.isReady)
-            {
-                self.interstitial.present(fromRootViewController: self)
-                adshowed = true
-            }
-            else{
-                adshowed = false
-            }
-            return;
-        }
-        
-        gamesPlayed += 1;
-        if( gamesPlayed % 2 == 0 )
-        {
-            self.interstitial = GADInterstitial(adUnitID: "ca-app-pub-5722562744549789/2259742550")
-            self.interstitial.load(GADRequest());
-        }
-        else if( gamesPlayed % 3 == 0 )
-        {
-            if (self.interstitial.isReady)
-            {
-                self.interstitial.present(fromRootViewController: self)
-                adshowed = true
-            }else{
-                adshowed = false;
-            }
-        }
+
     }
     
     override var prefersStatusBarHidden : Bool {
